@@ -1,0 +1,169 @@
+* { 
+    box-sizing: border-box; 
+    font-family: sans-serif;
+  }
+  
+  body { 
+    margin: 0; 
+  }
+  
+  @media (max-width: 7000px) { 
+    #nav-list { 
+      background-color: green;
+    }
+  }
+  
+  
+  /* Navigation */
+  #nav-list { 
+    display: flex; 
+    justify-content: flex-end; 
+    background-color: rgb(227, 227, 10);
+    margin-bottom: 0; 
+    position: fixed; 
+    width: 100%; 
+    margin-top: 0;
+  } 
+  
+  .nav-list-item { 
+    list-style-type: none; 
+    padding: 20px; 
+    font-size: 1.3rem; 
+  } 
+  
+  .nav-button { 
+    text-decoration: none; 
+    color: black; 
+    
+  }
+  
+  .nav-list-item:hover { 
+    cursor: pointer; 
+    background-color: white; 
+  } 
+  
+  /* Welcome */ 
+  #welcome-section {  
+    border: 1px solid grey;
+    height: 100vh; 
+    width: 100%;  
+    background-color: grey; 
+  } 
+  
+  #title { 
+    text-align: center; 
+    margin: 35vh;
+  } 
+  
+  #name { 
+    font-size: 2.5rem;
+  }
+  
+  #sub-title { 
+    color: rgb(227, 227, 10); 
+    font-size: 1.7rem;
+  } 
+  
+  /* Projects */ 
+  #projects { 
+    border: 1px solid rgb(227, 227, 10); 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between;
+    height: 100vh; 
+    background-color: rgb(227, 227, 10); 
+  } 
+  
+  #projects-title { 
+    text-align: center; 
+    margin-top: 80px; 
+    font-size: 2rem; 
+  }
+  
+  #project-title-underline { 
+    width: 470px; 
+    border: 1px solid black; 
+    position: absolute; 
+    left: 240px; 
+    top: 880px;
+  } 
+  
+  .project-img { 
+    width: 150px; 
+    height: 150px; 
+    object-fit: cover;   
+  } 
+  
+  #project-tile-row1, #project-tile-row2 { 
+    margin-bottom: 70px; 
+    display: flex; 
+    justify-content: space-evenly;
+  } 
+  
+  .project-name { 
+    text-align: center; 
+    
+  } 
+  
+  .project-tile { 
+   border: 1px solid black; 
+  } 
+  
+  #documentation-page-img { 
+    margin-left: 15px;
+  }
+  
+  #landing-page-img { 
+    margin-left: 25px;
+  }
+  
+  .project-name-background { 
+    background-color: white; 
+    border: 1px solid white;
+  }
+  
+  .project-link { 
+    text-decoration: none; 
+    color: black; 
+    border: 1px solid black;
+  } 
+  
+  /* Contact */ 
+  #contact { 
+    height: 100vh; 
+    background-color: grey; 
+    border: 1px solid grey; 
+  } 
+  
+  #contact-content { 
+    text-align: center; 
+    margin: 35vh;
+  } 
+  
+  #contact-title { 
+    font-size: 2.3rem;
+  } 
+  
+  #contact-sub-title { 
+    font-size: 1.7rem; 
+    color: rgb(227, 227, 10); 
+  }
+  
+  #profile-link { 
+    font-size: 1.2rem; 
+    text-decoration: none; 
+    color: rgb(227, 227, 10); 
+  }
+  
+  #profile-link:hover { 
+    background-color: black;
+  }
+  
+  #fcc-logo { 
+    position: absolute;
+    left: 380px;
+    width: 40px; 
+    height: 20px; 
+    object-fit: contain;
+  }
+  

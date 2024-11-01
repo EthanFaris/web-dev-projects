@@ -1,0 +1,109 @@
+* { 
+  box-sizing: border-box;
+}
+
+/* Header */
+#header { 
+  display: flex;
+   
+  justify-content: space-between; 
+} 
+
+#header-img {  
+  width: 10%; 
+  position: relative; 
+  z-index: 0; 
+  object-fit: contain; 
+}
+
+#header-title { 
+  position: absolute; 
+  z-index: 1; 
+  left: 9%; 
+  top: 4%;
+} 
+
+#nav-list { 
+  display: flex; 
+  height: 100%;  
+  margin: 0;
+}
+
+nav > ul > li { 
+  list-style-type: none; 
+  margin: 3rem; 
+}
+
+.nav-link { 
+  text-decoration: none; 
+  color: inherit;
+}
+
+.nav-link:hover { 
+  cursor: pointer;
+}
+
+/* Email-Form */ 
+.title-and-form { 
+  text-align: center;
+}
+
+.slogan { 
+  font-size: 1.4rem;
+}
+#email { 
+  display: block; 
+  text-align: center; 
+  margin-right: auto; 
+  margin-left: auto; 
+  margin-bottom: 5px; 
+} 
+
+/* Features */ 
+.feature-title { 
+  font-size: 1.8rem;
+}
+
+#feature-list { 
+  max-width: 500px; 
+  margin: 0 auto;
+} 
+
+#feature-list > li { 
+  list-style-type: none; 
+  padding-top: 30px;
+} 
+
+#feature-1-image { 
+  position: absolute;
+  height: 75px; 
+  width: 75px; 
+  object-fit: contain; 
+  top: 37%; 
+  left: 15%;  
+}
+
+#feature-2-image { 
+  position: absolute;
+  height: 75px; 
+  width: 75px; 
+  object-fit: contain; 
+  top: 49%; 
+  left: 15%;  
+}
+
+#feature-3-image { 
+  position: absolute;
+  height: 75px; 
+  width: 75px; 
+  object-fit: contain; 
+  top: 62%; 
+  left: 15%;  
+} 
+
+/* Video */ 
+#video { 
+  margin: auto; 
+  width: 500; 
+  height: 250; 
+}

@@ -1,0 +1,126 @@
+* { 
+  box-sizing: border-box;
+} 
+
+body { 
+  background-color: #0c1438;
+} 
+
+#title { 
+  font-size: 2.5rem;
+}
+
+#title, #change-due, #instruction, #price { 
+  color: white;
+} 
+
+#input-container { 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center;
+}
+
+#purchase-btn { 
+  background: linear-gradient(
+    yellow 10%,
+    orange); 
+    margin-top: 15px; 
+    width: 100px; 
+    height: 30px; 
+    font-size: 1.1rem;
+}
+
+#button-container { 
+  display: flex; 
+  flex-direction: row; 
+  justify-content: space-evenly; 
+  max-width: 80px; 
+  max-height: 80px; 
+  flex-wrap: wrap; 
+}
+
+.register-button { 
+  height: 20px; 
+  width: 20px; 
+  margin: 2.5px;  
+  background-color: black; 
+} 
+
+#change-remaining { 
+  background-color: white; 
+  width: 160px; 
+  margin-left: 50px;
+} 
+
+#change-due-title { 
+  margin: 0; 
+  padding: 5px;
+}
+
+.change-type { 
+ margin: 5px; 
+} 
+
+#register-body { 
+  display: flex; 
+  flex-direction: row; 
+  justify-content: space-evenly; 
+  padding: 20px; 
+  border-top-left-radius: 25px; 
+  border-top-right-radius: 25px;
+  width: 300px; 
+  height: 300px; 
+  margin: auto; 
+  background-color: #0b94e3
+} 
+
+#register-drawer { 
+  width: 300px; 
+  height: 50px; 
+  margin: auto; 
+  margin-top: 10px; 
+  background-color: #0b94e3; 
+} 
+
+#drawer-button { 
+  width: 20px; 
+  height: 20px; 
+  background-color: black; 
+  border-radius: 50%; 
+  margin: auto; 
+  position: relative; 
+  top: 15px;
+} 
+
+#register-neck { 
+  background-color: #0b94e3; 
+  width: 35px; 
+  height: 35px; 
+  margin: auto; 
+  position: relative; 
+  right: 75px; 
+} 
+
+#register-top { 
+  background-color: #0b94e3; 
+  width: 200px; 
+  height: 50px; 
+  margin: auto; 
+  position: relative; 
+  right: 15px;
+} 
+
+#register-reader { 
+  background-color: black;
+  width: 180px; 
+  height: 30px; 
+  margin: auto; 
+  position: relative; 
+  top: 10px; 
+  text-align: center;
+} 
+
+#price { 
+  font-size: 1.4rem; 
+  padding-top: 2px;
+}

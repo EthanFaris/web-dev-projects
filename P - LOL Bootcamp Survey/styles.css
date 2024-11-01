@@ -1,0 +1,40 @@
+body { 
+    background-image: url(https://cdn1.dotesports.com/wp-content/uploads/2019/10/11123108/Summoners-Rift.jpg);
+    color: rgb(255, 255, 255); 
+    margin: auto; 
+  } 
+  
+  form { 
+    width: 80%; 
+    height: 100%;
+    background-color: rgba(127, 255, 127, 0.5); 
+    font-family: serif; 
+    margin: auto;
+    padding: 20px 
+  } 
+  
+  h1, p { 
+    text-align: center; 
+  } 
+  
+  .text-label, select { 
+    display: block; 
+    width: 100%; 
+  } 
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  } 
+  
+  input[type="radio"], input[type="checkbox"] { 
+    display: inline;
+  } 
+  
+  input[type="Submit"] { 
+     background-color: rgb(255, 127, 0); 
+     color: white; 
+     font-size: 24; 
+     margin-top: 50px; 
+     height: 50px;
+  }

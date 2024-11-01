@@ -1,0 +1,110 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+ 
+ <head> 
+  <title>Pokémon Search App</title> 
+  <meta charset="utf-8"/> 
+  <link href="styles.css" rel="stylesheet"></link>
+ </head> 
+ 
+ <body> 
+  <h1 id="page-title">Pokémon Search App</h1> 
+  <div id="main-container"> 
+   <!-- Input -->
+   <p id="instructions">Search for Pokémon Name or ID:</p> 
+   <div id="input-container"> 
+    <input id="search-input" type="text" required/> 
+    <button id="search-button">Search</button> 
+   </div> 
+   
+   <!-- Images -->
+   <div id="pokemon-visual-container"> 
+    <div id="name-id-container">
+     <p id="pokemon-name"></p>
+     <p id="pokemon-id"></p>
+    </div>
+    <div id="weight-height-container">
+     <p id="weight"></p>
+     <p id="height"></p> 
+    </div> 
+    <div id="image-container"></div>
+    <div id="types"></div>
+   </div> 
+   
+   <!-- Stats -->
+   <div id="pokemon-stats-container"> 
+    
+    <div class="stat-row-container"> 
+      <div class="stat1-container"> 
+       <p id="base"><strong>Base</strong></p>
+      </div> 
+      <div class="stat2-container">
+        <p id="stats"><strong>Stats</strong></p>
+      </div>
+    </div>
+    
+    <!-- HP -->
+    <div class="stat-row-container">
+      <div class="stat1-container"> 
+       <p>HP:</p>
+      </div> 
+      <div class="stat2-container">
+        <p id="hp" class="stat-number">0</p>
+      </div>
+    </div>
+    
+    <!-- Attack -->
+    <div class="stat-row-container">
+      <div class="stat1-container"> 
+       <p>Attack:</p>
+      </div> 
+      <div class="stat2-container">
+        <p id="attack" class="stat-number">0</p>
+      </div>
+    </div>
+    
+    <!-- Defense -->
+    <div class="stat-row-container">
+      <div class="stat1-container"> 
+       <p>Defense:</p>
+      </div> 
+      <div class="stat2-container">
+        <p id="defense" class="stat-number">0</p>
+      </div>
+    </div>
+    
+    <!-- Sp. Attack -->
+    <div class="stat-row-container">
+      <div class="stat1-container"> 
+       <p>Sp. Attack:</p>
+      </div> 
+      <div class="stat2-container">
+        <p id="special-attack" class="stat-number">0</p>
+      </div>
+    </div>
+    
+    <!-- Sp. Defense -->
+    <div class="stat-row-container">
+      <div class="stat1-container"> 
+       <p>Sp. Defense</p>
+      </div> 
+      <div class="stat2-container">
+        <p id="special-defense" class="stat-number">0</p>
+      </div>
+    </div>
+    
+    <!-- Speed -->
+    <div class="stat-row-container">
+      <div class="stat1-container"> 
+       <p>Speed</p>
+      </div> 
+      <div class="stat2-container">
+        <p id="speed" class="stat-number">0</p>
+      </div>
+    </div>
+   
+   </div>
+  </div>
+  <script src="script.js"></script>
+ </body>
+</html>

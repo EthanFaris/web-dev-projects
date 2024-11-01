@@ -1,0 +1,69 @@
+<!DOCTYPE html> 
+<html lang="en"> </html> 
+
+<!-- Meta Data -->
+<head>
+  <title>LOL Bootcamp Survey</title> 
+  <meta charset="utf-8"/> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="styles.css">
+</head> 
+
+<!-- Body Start -->
+<body> 
+  <!-- Header and Paragraph -->
+  <h1 id="title">LOL Bootcamp Survey</h1>
+  <p id="description">Thanks for helping us help you on the rift!</p>
+  
+  <!-- Beginning of Form -->
+  <form id="survey-form"> 
+    
+    <!-- Labels for Name, Email, and Age -->
+    <label id="name-label">Name<input class="text-label" id="name" type="text" placeholder="Enter your full name" required/> </label> 
+    
+    <label id="email-label">Email<input class="text-label" id="email" type="email" placeholder="Enter your email" required/> </label>
+    
+    <label id="number-label">Age (optional)<input class="text-label" id="number" type="number" min="1" max="130" placeholder="Enter your age"/> </label>
+  
+  <!-- Rank Selection Dropdown -->
+    <label for="dropdown"> Rank 
+      <select id="dropdown"> 
+        <option value="i">Iron</option>
+        <option value="b">Bronze</option>
+        <option value="s">Silver</option>
+        <option value="g">Gold</option>
+        <option value="p">Platinum</option>
+        <option value="d">Diamond</option>
+        <option value="m">Master</option>
+        <option value="gm">GrandMaster</option>
+      </select> 
+    </label>
+   
+   <!-- Recommendation Radio Buttons -->
+   <legend>Would you recommend LOL bootcamp to a friend?</legend>
+    
+    <label><input id="would-recommend" type="radio" name="recommendation" value="y" checked/> Yes, I would recommend</label> 
+    
+    <label><input id="might-recommend" type="radio" name="recommendation" value="m"/> Maybe</label> 
+    
+    <label><input id="would-not-recommend" type="radio" name="recommendation" value="n"/> No</label> 
+   
+   
+   <!-- Improvement Checklist -->
+   <legend>What aspect of the game should we improve on? (Check all that apply)</legend> 
+   
+   <label><input id="lane-phase" type="checkbox" value="lane"/>Lane Phase</label>
+   
+   <label><input id="wave-management" type="checkbox" value="wave"/>Wave Management</label>
+   
+   <label><input id="team-fight" type="checkbox" value="fight"/>Team Fighting</label>
+   
+   <label><input id="macro-play" type="checkbox" value="macro"/>Macro</label> 
+   
+   <!-- Additional Comments -->
+   <label for="additional-comments">Please put any additional comments/feedback here<textarea class="text-label" id="additional comments" name="additional comments" placeholder="Additional comments..." rows="3" cols="30"></textarea> 
+   
+   <!-- Submit Button -->
+   <label for="submit"><input class="text-label" id="submit" type="Submit"/></label>
+  </form>
+</body>
